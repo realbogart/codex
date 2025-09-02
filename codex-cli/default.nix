@@ -5,7 +5,7 @@ in rec {
     pname = "codex-cli";
     version = "0.1.0";
     src = ./.;
-    npmDepsHash = "sha256-jhWxTcM92YGQutWX1n44/Dn/Kg4Rf1ucOO1eCImCn4o=";
+    npmDepsHash = "sha256-mUx1zhX96OtEr7d1t0IXieUaoR6U+/PCnFtI958U47o=";
     nodejs = node;
     npmInstallFlags = [ "--frozen-lockfile" ];
     meta = with pkgs.lib; {
